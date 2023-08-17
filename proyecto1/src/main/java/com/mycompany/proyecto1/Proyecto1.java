@@ -3,6 +3,8 @@
  */
 
 package com.mycompany.proyecto1;
+//importamos java.scanner
+import java.util.Scanner;
 
 /**
  *
@@ -11,15 +13,13 @@ package com.mycompany.proyecto1;
 public class Proyecto1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+System.out.println("Hello World!");
         
-        int opcion ;
-        int a;
-        int b;
-        int rs;
+
+        int a = 0;
+        int b = 0;
         
-        
-        
+
         
     }
 }
