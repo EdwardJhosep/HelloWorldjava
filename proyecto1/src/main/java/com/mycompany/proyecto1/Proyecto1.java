@@ -21,11 +21,19 @@ System.out.println("Hello World!");
         int b = 0;
         int rs =0;
         //agregamos un menu en donde vamos a elegir la suma o resta 
-        System.err.println("que operacion deseas realizar");
-        System.err.println("1...suma");
-        System.err.println("2...resta");
+        System.out.println("que operacion deseas realizar");
+        System.out.println("1...suma");
+        System.out.println("2...resta");
+        System.out.println("digite el numero a realizar");
+        
         p = reader.nextInt();
         
+        
+        //pedimos los numeros 
+        System.out.println("ingrese el primer numero");
+        a = reader.nextInt();
+        System.out.println("ingresa el segundo numero");
+        b = reader.nextInt();
         
     }
 }
