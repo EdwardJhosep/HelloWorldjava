@@ -24,7 +24,7 @@ System.out.println("Hello World!");
         System.out.println("que operacion deseas realizar");
         System.out.println("1...suma");
         System.out.println("2...resta");
-        System.out.println("digite el numero a realizar");
+        System.out.println("digite el numero a realizar:");
         
         p = reader.nextInt();
         
@@ -35,5 +35,19 @@ System.out.println("Hello World!");
         System.out.println("ingresa el segundo numero");
         b = reader.nextInt();
         
+        
+        //creamos la operacion con switch
+        switch(p){
+            case 1:
+                rs = a+b;
+                System.out.println("la suma de esos dos numeros es "+rs);
+                break;
+            case 2:
+                rs = a-b;
+                System.out.println("la resta de esos dos numeros es "+rs);
+                break;
+                    
+        }
+                
     }
 }
